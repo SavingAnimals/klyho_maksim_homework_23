@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <h1>Home work</h1>
+
+    <ul>
+        <li>
+            <p>Запросить у пользователя его возраст и определить, кем он является: ребенком (0–2), подростком (12–18),
+                взрослым (18_60)
+                или пенсионером (60– ...).</p>
+            <label>Ваш возраст: <input id="myName" type="text" value=""></label>
+            <a href="#" onclick="task1(event)">Ввести</a>
+            <br>
+            <br>
+            <label>результат: <input style="width: 250px;" id="oldResault" type="text" value=""></label>
+        </li>
+        <hr>
+        <hr>
+        <li>
+            <p>Запросить у пользователя число от 0 до 9 и вывести ему спецсимвол, который расположен на этой клавише
+                (1–!, 2–@, 3–# и
+                т. д).</p>
+            <label>Ваше число: <input id="number" type="text" value=""></label>
+            <a href="#" onclick="task2(event)">Расчет</a>
+            <br>
+            <br>
+            <label>результат: <input style="width: 250px;" id="text" type="text" value=""></label>
+        </li>
+        <hr>
+        <hr>
+        <li>
+            <p>Запросить у пользователя трехзначное число и проверить, есть ли в нем одинаковые цифры.</p>
+
+            <label>Число <input id="xxx" type="text" value=""></label>
+            <a href="#" onclick="task3(event)">Расчет</a>
+            <br>
+            <br>
+            <label>результат: <input id="xxxresault" type="text" value=""></label>
+        </li>
+        <hr>
+        <hr>
+        <li>
+            <p>Запросить у пользователя год и проверить, високосный он или нет. Високосный год либо кратен 400, либо
+                кратен 4 и при
+                этом не кратен 100.</p>
+            <label>Год: <input id="year" type="text" value=""></label>
+            <a href="#" onclick="task4(event)">Расчет</a>
+            <br>
+            <br>
+            <label>результат: <input id="yearResult" type="text" value=""></label>
+        </li>
+        <hr>
+        <hr>
+        <li>
+            <p>Запросить у пользователя пятиразрядное число и определить, является ли оно палиндромом.</p>
+            <label>Число ххххх<input id="xxxxx" type="text" value=""></label>
+            <a href="#" onclick="task5(event)">Расчет</a>
+            <br>
+            <br>
+            <label>Число: <input id="xxxxxResault" type="text" value=""></label>
+        </li>
+        <hr>
+        <hr>
+        <li>
+            <p>Написать конвертор валют. Пользователь вводит количество USD, выбирает, в какую валюту хочет перевести
+                EUR, UAN или AZN,
+                и получает в ответ соответствующую сумму.</p>
+            <label>Сумма в USD <input id="summa" type="text" value=""></label>
+            <label>Перевести в EUR, UAN или AZN <input id="valet" type="text" value=""></label>
+            <a href="#" onclick="task6(event)">Расчет</a>
+            <br>
+            <br>
+            <label>результат по конвертации: <input id="kursResault" type="text" value=""></label>
+        </li>
+        <hr>
+        <hr>
+        <li>
+            <p>Запросить у пользователя сумму покупки и вывести сумму к оплате со скидкой: от 200 до 300 – скидка будет
+                3%, от 300 до
+                500 – 5%, от 500 и выше – 7%.</p>
+            <label>Сумма покупки <input id="sumBuy" type="text" value=""></label>
+            <a href="#" onclick="task7(event)">Расчет</a>
+            <br>
+            <br>
+            <label>Сумма со скидкой: <input id="sumDiscount" type="text" value=""></label>
+        </li>
+        <hr>
+        <hr>
+        <li>
+            <p>Запросить у пользователя длину окружности и периметр квадрата. Определить, может ли такая окружность
+                поместиться в
+                указанный квадрат.</p>
+            <label>Окружность: <input id="circleLenght" type="text" value=""></label>
+            <label>Периметр квадрата: <input id="perimetr" type="text" value=""></label>
+            <a href="#" onclick="task8(event)">Расчет</a>
+            <br>
+            <br>
+            <label>Резултат: <input id="sizeResault" type="text" value=""></label>
+        </li>
+        <hr>
+        <hr>
+        <li>
+            <p>Задать пользователю 3 вопроса, в каждом вопросе по 3 варианта ответа. За каждый правильный ответ
+                начисляется 2 балла.
+                После вопросов выведите пользователю количество набранных баллов.
+            </p>
+
+            <label>Вопрос №1: 2+2=? (введите номер ответа)<input id="q1" type="text" value=""></label><br>
+            <p>ответ1: =2;; ответ2: =4;; ответ3: =6;;</p><br><br>
+            <label>Вопрос №2: 5+5=? (введите номер ответа)<input id="q2" type="text" value=""></label><br>
+            <p>ответ1: =5;; ответ2: =7;; ответ3: =10;;</p><br><br>
+            <label>Вопрос №3: 10+10=? (введите номер ответа)<input id="q3" type="text" value=""></label><br>
+            <p>ответ1: =20;; ответ2: =15;; ответ3: =60;;</p><br>
+            <a href="#" onclick="task9(event)">Расчет</a>
+            <br>
+            <br>
+            <label>Резултат: <input id="qResault" type="text" value=""></label>
+        </li>
+        <hr>
+        <hr>
+        <li>
+            <p>Запросить дату (день, месяц, год) и вывести следующую за ней дату. Учтите возможность перехода на
+                следующий месяц, год,
+                а также високосный год.</p>
+            <label>год: <input id="y" type="text" value=""></label>
+            <label>месяц: <input id="m" type="text" value=""></label>
+            <label>день: <input id="d" type="text" value=""></label>
+            <a href="#" onclick="task10(event)">Расчет</a>
+            <br>
+            <br>
+            <label>Следующая дата: <input id="resultDate" type="text" value=""></label>
+        </li>
+    </ul>
+</body>
+
+</html>
